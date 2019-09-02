@@ -1,0 +1,22 @@
+{
+  "name": "alexa-reviewer-simple-skill",
+  "version": "1.0.0",
+  "description": "Simple quiz/reviewer application [ Alexa Skill ]",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romarcablao/alexa-reviewer-simple-skill.git"
+  },
+  "keywords": [
+    "alexa-skill"
+  ],
+  "author": "Romar Cablao <romarcablao@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romarcablao/alexa-reviewer-simple-skill/issues"
+  },
+  "homepage": "https://github.com/romarcablao/alexa-reviewer-simple-skill#readme"
+}

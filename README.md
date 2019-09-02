@@ -5,7 +5,7 @@ Simple quiz/reviewer application [ Alexa Skill ]
 1. Clone the repository
     ```bash
     git clone https://github.com/romarcablao/alexa-reviewer-simple-skill.git
-    alexa-reviewer-simple-skill
+    cd alexa-reviewer-simple-skill
     ```
 2. Play around with the code and try to deploy on [AWS Lambda](https://console.aws.amazon.com/lambda) and [Alexa Developer Console](https://developer.amazon.com/alexa/console/ask) to test.
 

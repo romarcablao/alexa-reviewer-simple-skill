@@ -1,0 +1,11 @@
+service: alexa-os-reviewer
+provider:
+  name: aws
+  runtime: nodejs10.x
+
+functions:
+  hello:
+    handler: handler
+
+   events:
+     - alexaSkill: amzn1.ask.skill.xx-xx-xx-xx

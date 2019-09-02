@@ -1,0 +1,104 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "outsystems reviewer",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "Answer",
+                            "type": "LIST_OF_ANSWERS"
+                        }
+                    ],
+                    "samples": [
+                        "{Answer} is my anwer",
+                        "is it {Answer}",
+                        "my anwswer is {Answer}",
+                        "the answer is {Answer}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": [
+                        "start game",
+                        "new game",
+                        "start",
+                        "start new game"
+                    ]
+                },
+                {
+                    "name": "AnswerOnlyIntent",
+                    "slots": [
+                        {
+                            "name": "Answer",
+                            "type": "LIST_OF_ANSWERS"
+                        }
+                    ],
+                    "samples": [
+                        "{Answer}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_ANSWERS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "1"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
